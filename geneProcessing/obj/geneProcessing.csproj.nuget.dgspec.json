@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming6\\geneProcessing\\geneProcessing\\geneProcessing.csproj": {}
+    "D:\\programming8\\geneProcessingServer\\geneProcessing\\geneProcessing.csproj": {}
   },
   "projects": {
-    "D:\\programming6\\geneProcessing\\geneProcessing\\geneProcessing.csproj": {
+    "D:\\programming8\\geneProcessingServer\\geneProcessing\\geneProcessing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming6\\geneProcessing\\geneProcessing\\geneProcessing.csproj",
+        "projectUniqueName": "D:\\programming8\\geneProcessingServer\\geneProcessing\\geneProcessing.csproj",
         "projectName": "geneProcessing",
-        "projectPath": "D:\\programming6\\geneProcessing\\geneProcessing\\geneProcessing.csproj",
+        "projectPath": "D:\\programming8\\geneProcessingServer\\geneProcessing\\geneProcessing.csproj",
         "packagesPath": "C:\\Users\\yaniv\\.nuget\\packages\\",
-        "outputPath": "D:\\programming6\\geneProcessing\\geneProcessing\\obj\\",
+        "outputPath": "D:\\programming8\\geneProcessingServer\\geneProcessing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,25 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.2, )"
+            },
             "EPPlus": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExpertXls.ExcelLibrary": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
